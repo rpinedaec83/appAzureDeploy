@@ -17,7 +17,7 @@ require("./app/routes/auth.routes")(app);
 require("./app/routes/user.routes")(app);
 
 app.get("/", (req, res) => {
-    res.send("Hola desde render");
+    res.send("Hola desde azure");
 });
 
 const db = require("./app/models");
